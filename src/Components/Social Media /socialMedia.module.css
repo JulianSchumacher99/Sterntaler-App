@@ -1,0 +1,19 @@
+.container {
+  display: grid;
+}
+
+.title {
+  background-color: #a6c7ea;
+  padding: 1.2rem 2rem;
+  color: var(--color-secondary);
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.socialmedia {
+  display: grid;
+}
+
+.img {
+  width: 100vw;
+}
