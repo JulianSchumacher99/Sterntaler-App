@@ -1,0 +1,40 @@
+.container {
+  display: grid;
+}
+
+.container a {
+  text-decoration: none;
+}
+
+.category {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  justify-items: center;
+  border-top: 0.3rem solid var(--color-primary);
+  border-bottom: 0.3rem solid var(--color-primary);
+  color: var(--color-secondary);
+  font-size: 1.4rem;
+}
+
+.category:nth-child(1) {
+  border-bottom: none;
+}
+
+.category:nth-child(2) {
+  border-bottom: none;
+}
+
+.category:nth-child(3) {
+  border-bottom: none;
+}
+
+.text {
+  margin: 0.5rem;
+}
+
+.arrow {
+  width: 1.5rem;
+  height: 1.1rem;
+  transform: rotate(180deg);
+}
