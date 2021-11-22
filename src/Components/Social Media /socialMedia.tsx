@@ -1,4 +1,4 @@
-import styles from './socialmedia.module.css';
+import styles from './socialMedia.module.css';
 
 function SocialMedia(): JSX.Element {
   return (
