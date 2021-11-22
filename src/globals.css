@@ -1,9 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap');
+
 *,
 *::after,
 *::before {
   box-sizing: border-box;
 }
 
+:root {
+  --color-primary: #ebf2fb;
+  --color-secondary: #153974;
+  --color-teritary: #f8ebdf;
+  --color-button: #f2dac4;
+  --color-contrast: #fff;
+  --text-color: #393939;
+  --border-radius: 1rem;
+  --font-family: 'Open Sans', sans-serif;
+}
+
 body {
   margin: 0;
+  font-family: var(--font-family);
 }
