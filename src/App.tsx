@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react';
 import './App.css';
 import Footer from './Components/Footer/footer';
 import Header from './Components/Header/header';
+import Home from './pages/Home/home';
 import LoadingScreen from './pages/Loading Screen/loadingScreen';
 
 function App(): JSX.Element {
@@ -16,6 +17,7 @@ function App(): JSX.Element {
       {loading === false ? (
         <div className="app">
           <Header />
+          <Home />
           <Footer />
         </div>
       ) : (
