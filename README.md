@@ -1,8 +1,8 @@
 # App Template
 
 > Quickly bootstrap a new project with App Template.
-This boilerplate contains all the tools you need to build a modern web app with TypeScript, React, Vite and Storybook.  
-You can use it to quickly bootstrap your project.
+> This boilerplate contains all the tools you need to build a modern web app with TypeScript, React, Vite and Storybook.  
+> You can use it to quickly bootstrap your project.
 
 ESLint, stylelint, prettier, husky and lintstaged are configured to give you a solid development experience.
 
