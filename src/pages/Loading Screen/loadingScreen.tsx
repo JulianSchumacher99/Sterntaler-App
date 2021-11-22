@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import styles from './LoadingScreen.module.css';
+import styles from './loadingScreen.module.css';
 
 function LoadingScreen(): JSX.Element {
   const [progress, setProgress] = useState<number>(0);
