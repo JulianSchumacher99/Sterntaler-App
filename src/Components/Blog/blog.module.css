@@ -1,3 +1,45 @@
 .container {
-  text-align: center;
+  margin: 3.5rem 0;
+}
+
+.content {
+  display: grid;
+  align-content: center;
+  height: 30vh;
+  width: 100vw;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-image: url('https://cdn.shopify.com/s/files/1/0285/6920/6887/files/Banner_Spielwarenneuheiten_06d4cdef-1599-405d-9282-0d0a6f1bb238_x1024.jpg?v=1634626443');
+}
+
+.content:nth-child(2) {
+  background-image: url('https://cdn.shopify.com/s/files/1/0285/6920/6887/files/Blog_HW_2021_x1024.jpg?v=1634626041');
+}
+
+.content:nth-child(3) {
+  background-image: url('https://cdn.shopify.com/s/files/1/0285/6920/6887/files/Banner_Hebammen_884bae15-e0d1-4e93-949a-e7f6ee640501_x1024.jpg?v=1633423325');
+}
+
+.content:nth-child(4) {
+  background-image: url('https://cdn.shopify.com/s/files/1/0285/6920/6887/files/04_Textile_x1024.png?v=1597295242');
+}
+
+.contenttext {
+  background-color: rgb(217 217 214 / 70%);
+  margin: 2rem;
+  border-radius: var(--border-radius);
+  padding: 0.8rem;
+}
+
+.h2 {
+  opacity: 0.4;
+  font-weight: 300;
+}
+
+.btn {
+  padding: 0.8rem 2rem;
+  background-color: var(--color-button);
+  border-radius: var(--border-radius);
+  border: none;
 }
