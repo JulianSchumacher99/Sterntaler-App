@@ -4,7 +4,7 @@ function Blog(): JSX.Element {
   const buttonText = 'Mehr lesen';
 
   return (
-    <div className={styles.container}>
+    <>
       <div className={styles.content}>
         <div className={styles.contenttext}>
           <h2 className={styles.h2}>NEW ARRIVALS</h2>
@@ -33,7 +33,7 @@ function Blog(): JSX.Element {
           <button className={styles.btn}>{buttonText}</button>
         </div>
       </div>
-    </div>
+    </>
   );
 }
 
