@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import { Route, Routes } from 'react-router';
 import './App.css';
+import Blog from './Components/Blog/blog';
 import Footer from './Components/Footer/footer';
 import Header from './Components/Header/header';
 import Home from './pages/Home/home';
@@ -20,6 +21,7 @@ function App(): JSX.Element {
           <Header />
           <Routes>
             <Route path="/" element={<Home />} />
+            <Route path="/blog" element={<Blog />} />
           </Routes>
           <Footer />
         </div>
