@@ -24,13 +24,13 @@ function Footer(): JSX.Element {
           alt=""
         />
       </Link>
-      <Link className={styles.iconlink} to="https://www.sterntaler.com">
+      <a className={styles.iconlink} href="https://www.sterntaler.com">
         <img
           className={styles.icon}
           src="src/assets/icons8-buying-32.png"
           alt=""
         />
-      </Link>
+      </a>
     </div>
   );
 }
