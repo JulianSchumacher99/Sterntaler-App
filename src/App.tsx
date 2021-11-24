@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import { Route, Routes } from 'react-router';
 import './App.css';
 import Footer from './Components/Footer/footer';
 import Header from './Components/Header/header';
@@ -17,7 +18,9 @@ function App(): JSX.Element {
       {loading === false ? (
         <div className="app">
           <Header />
-          <Home />
+          <Routes>
+            <Route path="/" element={<Home />} />
+          </Routes>
           <Footer />
         </div>
       ) : (
