@@ -1,6 +1,10 @@
 import styles from './blogFilter.module.css';
 
-function BlogFilter(): JSX.Element {
+type FilterProps = {
+  onSetFilter: (filter: string) => void;
+};
+
+function BlogFilter({ onSetFilter }: FilterProps): JSX.Element {
   return (
     <div className={styles.container}>
       <img
@@ -8,8 +12,11 @@ function BlogFilter(): JSX.Element {
         src="https://cdn.shopify.com/s/files/1/0285/6920/6887/t/11/assets/new-book.svg?v=183120823372343621"
         alt=""
       />
-      <div className={styles.filtertext}>Filtern nach:</div>
-      <select className={styles.dropdown}>
+      <p>Filtern nach:</p>
+      <select
+        onChange={(event) => onSetFilter(event.target.value)}
+        className={styles.dropdown}
+      >
         <option>Alle</option>
         <option>Wissenwertes</option>
         <option>Funktionsartikel</option>
