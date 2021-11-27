@@ -1,11 +1,11 @@
 import { useState, useEffect } from 'react';
 import { Route, Routes } from 'react-router';
 import './App.css';
-import Blog from './Components/Blog/blog';
 import Footer from './Components/Footer/footer';
 import Header from './Components/Header/header';
 import Home from './pages/Home/home';
 import LoadingScreen from './pages/Loading Screen/loadingScreen';
+import Ratgeber from './pages/Ratgeber/ratgeber';
 
 function App(): JSX.Element {
   const [loading, setLoading] = useState(true);
@@ -21,7 +21,7 @@ function App(): JSX.Element {
           <Header />
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/blog" element={<Blog />} />
+            <Route path="/blog" element={<Ratgeber />} />
           </Routes>
           <Footer />
         </div>
