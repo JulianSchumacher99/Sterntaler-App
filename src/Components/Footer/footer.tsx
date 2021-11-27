@@ -17,7 +17,7 @@ function Footer(): JSX.Element {
       <Link className={styles.iconlink} to="/">
         <img className={styles.icon} src="src/assets/icons8-home.svg" alt="" />
       </Link>
-      <Link className={styles.iconlink} to="/notes">
+      <Link className={styles.iconlink} to="/notizen">
         <img
           className={styles.icon}
           src="src/assets/icons8-making-notes-32.png"
