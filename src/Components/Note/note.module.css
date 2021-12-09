@@ -1,0 +1,33 @@
+.note {
+  display: grid;
+  align-content: center;
+  justify-items: center;
+  margin-top: 6rem;
+  overflow-y: scroll;
+}
+
+.noteheader {
+  background-color: var(--color-secondary);
+  padding: 0.8rem;
+  width: 80vw;
+  border-radius: var(--border-radius) var(--border-radius) 0 0;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.icon {
+  width: 1rem;
+  height: 1rem;
+  margin: 0 0.4rem;
+}
+
+.notetext {
+  color: var(--color-text);
+  font-family: var(--font-family);
+  font-size: 1.5rem;
+  border: 0.2rem solid var(--color-secondary);
+  border-radius: 0 0 var(--border-radius) var(--border-radius);
+  outline: none;
+  width: 80vw;
+  height: 30vh;
+}
