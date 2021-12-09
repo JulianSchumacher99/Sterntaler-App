@@ -1,0 +1,14 @@
+.container {
+  display: grid;
+  margin-top: 3.5rem;
+}
+
+.btn {
+  right: 0;
+  position: absolute;
+  margin: 1rem;
+  padding: 0.8rem 2rem;
+  background-color: var(--color-button);
+  border-radius: var(--border-radius);
+  border: none;
+}
