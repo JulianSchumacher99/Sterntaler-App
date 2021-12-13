@@ -1,0 +1,32 @@
+.container {
+  border: 0.2rem solid var(--color-secondary);
+  border-radius: var(--border-radius);
+  margin: 1.8rem 1.4rem;
+  padding: 0.8rem;
+  display: grid;
+  justify-items: center;
+  height: 12rem;
+}
+
+.container:first-child {
+  margin-top: 5rem;
+}
+
+.container:last-child {
+  margin-bottom: 5rem;
+}
+
+.title {
+  color: var(--color-secondary);
+}
+
+.playsound {
+  width: 3.8rem;
+  height: 3.8rem;
+  background: var(--color-primary);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  border: none;
+}
