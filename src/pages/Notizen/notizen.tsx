@@ -21,7 +21,6 @@ function Notizen(): JSX.Element {
 
   function onAddNote() {
     console.log('Add');
-    console.log();
   }
 
   return (
