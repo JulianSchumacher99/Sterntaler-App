@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 import styles from './footer.module.css';
 import book from '../../assets/icons8-book-32.png';
-import music from '../../assets/icons8-musik.svg';
+import music from '../../assets/icons8-music.svg';
 import home from '../../assets/icons8-home.svg';
 import notes from '../../assets/icons8-making-notes-32.png';
 import cart from '../../assets/icons8-buying-32.png';
