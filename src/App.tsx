@@ -7,6 +7,7 @@ import Home from './pages/Home/home';
 import LoadingScreen from './pages/Loading Screen/loadingScreen';
 import Notizen from './pages/Notizen/notizen';
 import Ratgeber from './pages/Ratgeber/ratgeber';
+import Musik from './pages/Musik/musik';
 
 function App(): JSX.Element {
   const [loading, setLoading] = useState(true);
@@ -24,6 +25,7 @@ function App(): JSX.Element {
             <Route path="/" element={<Home />} />
             <Route path="/blog" element={<Ratgeber />} />
             <Route path="/notizen" element={<Notizen />} />
+            <Route path="/musik" element={<Musik />} />
           </Routes>
           <Footer />
         </div>
