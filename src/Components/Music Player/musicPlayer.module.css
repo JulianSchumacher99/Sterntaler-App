@@ -1,6 +1,7 @@
 .container {
   border: 0.2rem solid var(--color-secondary);
   border-radius: var(--border-radius);
+  background-color: var(--color-contrast);
   margin: 1.8rem 1.4rem;
   padding: 0.8rem;
   display: grid;
