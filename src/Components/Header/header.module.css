@@ -5,6 +5,7 @@
   height: 3.5rem;
   width: 100vw;
   z-index: 999;
+  box-shadow: 0 0 8px rgb(0 0 0 / 30%);
 }
 
 .logo {
