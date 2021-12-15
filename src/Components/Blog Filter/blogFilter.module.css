@@ -17,4 +17,5 @@
   border-radius: var(--border-radius);
   background-color: var(--color-button);
   outline: none;
+  color: (var(--text-color));
 }

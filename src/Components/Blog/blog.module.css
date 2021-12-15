@@ -25,4 +25,5 @@
   background-color: var(--color-button);
   border-radius: var(--border-radius);
   border: none;
+  color: var(--color-text);
 }
