@@ -1,3 +1,4 @@
+import { useMemo, useState } from 'react';
 import styles from './musicPlayer.module.css';
 
 type MusicProps = {
@@ -6,16 +7,16 @@ type MusicProps = {
 };
 
 function MusicPlayer({ title, url }: MusicProps): JSX.Element {
-  const audio = new Audio(url);
-  let content;
+  const [content, setContent] = useState('▶️');
+  const audio = useMemo(() => new Audio(url), []);
 
   function handleClick() {
     if (audio.paused) {
       audio.play();
-      content = '⏹';
+      setContent('⏹');
     } else {
       audio.pause();
-      content = '▶️';
+      setContent('▶️');
     }
   }
 

@@ -37,8 +37,7 @@ function Musik(): JSX.Element {
   return (
     <div className={styles.container}>
       {songs.map((song) => (
-        // eslint-disable-next-line react/jsx-key
-        <MusicPlayer title={song.title} url={song.url} />
+        <MusicPlayer title={song.title} url={song.url} key={song.url} />
       ))}
     </div>
   );
