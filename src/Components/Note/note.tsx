@@ -3,7 +3,7 @@ import edit from '../../assets/icons8-edit.svg';
 import trash from '../../assets/icons8-trash.svg';
 
 type NoteProps = {
-  id: number;
+  id: string;
   text: string;
 };
 
@@ -14,7 +14,7 @@ function Note({ id, text }: NoteProps): JSX.Element {
         <img className={styles.icon} src={edit} alt="" />
         <img className={styles.icon} src={trash} alt="" />
       </div>
-      <textarea className={styles.notetext} value={text}></textarea>
+      <textarea id={id} className={styles.notetext} value={text}></textarea>
     </label>
   );
 }
