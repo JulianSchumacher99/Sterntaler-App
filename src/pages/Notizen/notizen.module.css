@@ -1,6 +1,6 @@
 .container {
   display: grid;
-  margin-top: 3.5rem;
+  margin: 5rem 0;
 }
 
 .btn {
@@ -12,4 +12,8 @@
   color: var(--color-text);
   border-radius: var(--border-radius);
   border: none;
+}
+
+.note {
+  margin-top: 3rem;
 }

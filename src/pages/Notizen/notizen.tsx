@@ -3,19 +3,18 @@ import Note from '../../Components/Note/note';
 import styles from './notizen.module.css';
 
 function Notizen(): JSX.Element {
-  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   const [notes, setNotes] = useState([
     {
-      id: 1,
-      text: 'This is my first note',
+      id: '1',
+      text: '2 Strampler',
     },
     {
-      id: 2,
-      text: 'This is my second note',
+      id: '2',
+      text: 'Windeln',
     },
     {
-      id: 3,
-      text: 'This is my third note',
+      id: '3',
+      text: 'Taufe 19.12. 15:00 Uhr ',
     },
   ]);
 
@@ -28,11 +27,11 @@ function Notizen(): JSX.Element {
       <button className={styles.btn} onClick={onAddNote}>
         Notiz erstellen
       </button>
-
-      {notes.map((note) => (
-        // eslint-disable-next-line react/jsx-key
-        <Note id={note.id} text={note.text} />
-      ))}
+      <article className={styles.note}>
+        {notes.map((note) => (
+          <Note id={note.id} text={note.text} key={note.id} />
+        ))}
+      </article>
     </div>
   );
 }
